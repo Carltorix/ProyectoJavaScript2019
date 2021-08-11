@@ -1,0 +1,114 @@
+
+
+h1{
+    text-align: center;
+    color: #8CB4E4   ;
+    font-family: 'Kanit', sans-serif;
+}
+h2{
+    text-align: center;
+    color: #8CB4E4   ;
+    font-family: 'Kanit', sans-serif;
+}
+h3{
+
+	 text-align: center;
+	 color: #8CB4E4   ;
+    font-family: 'Kanit', sans-serif;
+}
+h4{
+ 	color: #8CB4E4;
+    font-family: 'Kanit', sans-serif;	
+}
+h5{
+
+	 color: #8CB4E4   ;
+    font-family: 'Kanit', sans-serif;
+}
+
+#juegos{
+
+	display: none;
+	text-align: center;
+}
+
+
+#mostrar{
+
+	display: none;
+}
+#error{
+	color: red;
+}
+#error1{
+	color: red;
+}
+#error2{
+	color: red;
+}
+#error3{
+	color:red;
+}
+#l0{
+	 width: 20px;
+	 height:30px;
+}
+#l1{
+	 width: 20px;
+	 height:30px;
+}
+#l2{
+	 width: 20px;
+	 height:30px;
+}
+#l3{
+	 width: 20px;
+	 height:30px;
+}
+#l4{
+	 width: 20px;
+	 height:30px;
+}
+#l5{
+	 width: 20px;
+	 height:30px;
+}
+#l6{
+	 width: 20px;
+	 height:30px;
+}
+#l7{
+	 width: 20px;
+	 height:30px;
+}
+#l8{
+	 width: 20px;
+	 height:30px;
+}
+#l9{
+	 width: 20px;
+	 height:30px;
+}
+#l10{
+	 width: 20px;
+	 height:30px;
+}
+#l11{
+	 width: 20px;
+	 height:30px;
+}
+#l12{
+	 width: 20px;
+	 height:30px;
+}
+.boton{
+		 width: 150px;
+	 	height:30px;
+	 	border-radius: 50px;
+}
+#botonsalida{
+	text-align: center;
+}
+
+
+

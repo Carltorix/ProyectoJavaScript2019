@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SubTest Kbit</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src= "js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src= "js/trabajofinal.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body class="bg-warning" id="cuerpojuego">
+	<h1 id="titulo">Juego de Definiciones</h1>
+	</br>
+	<h3 id="explica">El juego tiene 3 intento por palabras, avanza por pobrar 3 veces mal o por acertar, o al ver la respuesta. Son 37 niveles se puede salir cuando deseen con el botón salir</h3>
+	
+	<div id="tablamuestra" class="col-md-2">
+		<div class="table-responsive">
+			<table class="table table-striped table-bordered table-condensed" >
+		
+				<tr>
+					<th>EDAD</th>
+					<th>Empezar en el ítem</th>
+				</tr>
+				<tr>
+					<th>8-14</th>
+					<th>Nivel 1</th>
+				</tr>
+				<tr>
+					<th>15-90</th>
+					<th>Nivel 6</th>
+				</tr>
+		</table>
+		</div>
+	</div>
+	<div id="form1">	
+		<h5>Nombre:</h5><input type="text" id="nombre"></input><div id='error'></div></br>
+				
+		<h5>Apellido:</h5><input type="text" id="apellido"></input><div id='error1'></div></br>
+				
+		<h5>Edad:</h5><input type="text" id="edad"></input><div id='error2'></div></br>
+
+		<input class="boton" type='submit' name='Empezar' value='Empezar' id='Empezar' onClick='return Empezar()'></input>
+	</div>		
+	<div id="juegos">
+		<div id="nivelactu"></div>
+
+		<div id="consigna"></div>
+		<div id="palabra">
+			<input type="text" id="l0" placeholder="" maxlength="1" onkeyup="cambiar(0)"></input>
+			<input type="text" id="l1" placeholder="" maxlength="1" onkeyup="cambiar(1)"></input>
+			<input type="text" id="l2" placeholder="" maxlength="1" onkeyup="cambiar(2)"></input>
+			<input type="text" id="l3" placeholder="" maxlength="1" onkeyup="cambiar(3)"></input>
+			<input type="text" id="l4" placeholder="" maxlength="1" onkeyup="cambiar(4)"></input>
+			<input type="text" id="l5" placeholder="" maxlength="1" onkeyup="cambiar(5)"></input>
+			<input type="text" id="l6" placeholder="" maxlength="1" onkeyup="cambiar(6)"></input>
+			<input type="text" id="l7" placeholder="" maxlength="1" onkeyup="cambiar(7)"></input>
+			<input type="text" id="l8" placeholder="" maxlength="1" onkeyup="cambiar(8)"></input>
+			<input type="text" id="l9" placeholder="" maxlength="1" onkeyup="cambiar(9)"></input>
+			<input type="text" id="l10" placeholder="" maxlength="1" onkeyup="cambiar(10)"></input>
+			<input type="text" id="l11" placeholder="" maxlength="1" onkeyup="cambiar(11)"></input>
+			<input type="text" id="l12" placeholder="" maxlength="1" onkeyup="cambiar(12)"></input>
+		</div>
+		<div id="error3"></div>
+		</br>
+		</br>
+		<div id="botones">
+		<input class="boton" type='submit' name='avanzar' value='Ver Respuesta' id='avanzar' onClick='return avanzar()'></input>
+		<input class="boton" type='submit' name='probar' value='Probar' id='probar' onClick='return probar()'></input>
+		<input class="boton" type='submit' name='salir' value='Salir' id='salir' onClick='return salir()'></input>
+		</div>
+	</div>	
+	<div id="mostrar">
+		<div class="container" id="mnom"></div>
+		<div class="container" id="mape"></div>
+		<div class="container" id="medad"></div>
+		<div class="container" id="resul"></div>
+	</br>
+	</br>
+		<div class="container" id="botonsalida">	
+		<input class="boton" type='submit' name='Salir' value='Salir' id='ssalir' onClick='return ssalir()'></input>
+		</div>
+	</div>
+
+</body>
